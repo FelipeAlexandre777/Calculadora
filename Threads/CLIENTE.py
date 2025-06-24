@@ -1,7 +1,7 @@
 import socket
 
 def iniciar_cliente():
-    host = "127.0.0.1" 
+    host = "10.90.36.116" 
     porta = 5000
 
     cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
