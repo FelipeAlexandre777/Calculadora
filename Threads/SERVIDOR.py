@@ -20,8 +20,8 @@ def lidar_com_cliente(conexao, endereco):
     print(f"[DESCONECTADO] {endereco} desconectado.")
 
 def iniciar_servidor():
-    host = "127.0.0.1"  # localhost
-    porta = 12345
+    host = "10.90.36.116"  # localhost
+    porta = 5000
 
     servidor = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     servidor.bind((host, porta))
