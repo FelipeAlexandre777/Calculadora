@@ -2,8 +2,7 @@ import socket
 
 def calcular(operacao):
     try:
-        # Aqui, você pode tentar usar um método mais seguro de avaliar a operação
-        resultado = eval(operacao)  # ATENÇÃO: Usar com cuidado!
+        resultado = eval(operacao)
         return str(resultado)
     except Exception as e:
         return f"Erro: {e}"
